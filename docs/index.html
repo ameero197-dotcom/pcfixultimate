@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<meta charset="utf-8">
+<title>PCFixUltimate — Download</title>
+<style>
+  body{font-family:Segoe UI,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px}
+  h1{margin:0 0 8px}
+  .card{border:1px solid #ddd;border-radius:10px;padding:16px;margin:16px 0}
+  .btn{display:inline-block;padding:10px 16px;border:1px solid #1a73e8;border-radius:8px;text-decoration:none}
+  .btn:hover{background:#1a73e8;color:#fff}
+  small{color:#666}
+  code{user-select:all}
+</style>
+
+<h1>PCFixUltimate</h1>
+<p><small>Version: <span id="ver">…</span></small></p>
+
+<div class="card">
+  <h3>Download</h3>
+  <p>
+    <a class="btn" href="./PCFixUltimateSetup.exe">Download Setup (recommended)</a>
+    &nbsp; or &nbsp;
+    <a class="btn" href="./PCFixUltimate.exe">Download EXE only</a>
+  </p>
+  <p><small>SHA-256: <code id="sha">…</code></small></p>
+</div>
+
+<script>
+(async () => {
+  try {
+    const r = await fetch('./latest.json',{cache:'no-store'});
+    const j = await r.json();
+    document.getElementById('ver').textContent = j.version || '';
+    document.getElementById('sha').textContent = j.sha256 || '';
+  } catch(e){}
+})();
+</script>
