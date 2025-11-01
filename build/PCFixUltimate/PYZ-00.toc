@@ -1,4 +1,4 @@
-('C:\\Users\\xlx\\Desktop\\Pcfixapp\\pcfixgptversion\\build\\PCFixUltimate\\PYZ-00.pyz',
+('C:\\Users\\xlx\\Desktop\\Pcfixapp\\pcfixgptversion\\build\\PcFixUltimate\\PYZ-00.pyz',
  [('GPUtil',
    'C:\\Users\\xlx\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\GPUtil\\__init__.py',
    'PYMODULE'),

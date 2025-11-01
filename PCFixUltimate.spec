@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['PCFixUltimate.py'],
+    ['PcFixUltimate.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='PCFixUltimate',
+    name='PcFixUltimate',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
