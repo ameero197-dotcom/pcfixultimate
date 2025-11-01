@@ -1,7 +1,7 @@
 {
-  "version": "1.0.5",
-  "url": "https://ameero197-dotcom.github.io/pcfixultimate/PCFixUltimate-Setup-1.0.5.exe",
-  "sha256": "95136C25CFE58317285D2978770F3C217F0654324EB34387281FBF5E3892DF82",
-  "signature": "Pdk4LK2nyDydwAmO+pN5KYO0CxTXP4qfPLVcMI6UTehDmI60DkbF+Xna+pTt+dB8wOKK6xjPITExtml/uQd45s1r7IvOg/HEZwhWDM0dwYd2ecAyUief5I+KABKLSbA6TUZrxHMGzz1mpN4cUc4RGPFJYt5lAvytbaFtMQ7s8uH2FV+XSsIeZFtsUKJxwGAq5bUeRXs+JqsMOmzB4KZ+b59DKsP99+9lS7hpai99rOwN56ghkcVU0n2Yf2Mr6V6nCy4vy5RwPt4iMCbPXHnyKPh1MK3pH5ZqDKPgzTdDG/9k89ev/UHbzI+i9DRcG+/e4ZFGRbcpo67ZVILwCybfHw==",
+  "version": "1.0.4",
+  "url": "https://ameero197-dotcom.github.io/pcfixultimate/PCFixUltimate.exe",
+  "sha256": "sha256-hash-here",
+  "signature": "signature-here",
   "signature_method": "RS256"
 }
